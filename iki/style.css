@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+* {
+margin: 0;
+padding: 0;
+text-decoration: none;
+text-align: center;
+}
+html,
+body {
+    height: 100%;
+}
+.main-section {
+    position: relative;
+    min-height: 100%;
+    
+
+}
+.main-img {
+    background-image: url("https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+padding: 400px;
+}
+.main-head {
+position: absolute;
+text-align: center;
+top: 50%;
+width: 100%;
+color: #fff;
+font-family: 'Lato', sans-serif;
+font-size: 27px ;
+}
+.border {
+    padding: 17px 20px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.7;
+} 
+.sention-one{
+    opacity: 0.7;
+    height: 250px;
+    background-color: #f4f4f4;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.section-one h2 {
+    font-size: 35px;
+     padding-top: 25px;
+     margin-bottom: 20px;
+}
+.h2-info{
+    padding: 50px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.section-one-p{
+    position: relative;
+}
+.one-p { background-image: url(https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+padding: 150px;
+
+}
+
+.main-head2 {
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 27px ;
+
+}
+.sention-two {
+    height: 250px;
+    background-color: #282e34;
+    color: #ddd;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.section-two h2 {
+    font-size: 35px;
+     padding-top: 25px;
+     margin-bottom: 20px;
+}
+.section-four {
+    position: relative;
+}
+.imgx {
+    background-image: url(https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+padding: 150px;
+}
+.section-x h2 {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 27px ;
+    
+}
+.section-five h2{ 
+    font-size: 35px;
+    padding-top: 25px;
+    margin-bottom: 20px;
+}
+
+.section-dark {
+    background-color: #282e34;
+    color: #ddd;
+}
+
